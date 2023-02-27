@@ -1,3 +1,100 @@
 body {
-    background-color: aquamarine;
+    background-color: #F9F5E7;
 }
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+header {
+    padding: 10px 30px;
+    display: flex;
+    background-color: #A7727D;
+    color: #F9F5E7;
+    justify-content: space-between;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #EDDBC7;
+    padding: 2rem;
+    margin: 2rem auto;
+}
+
+
+
+.navLink {
+    display: inline-block;
+    margin: 20px 5px 0 5px;
+}
+
+.aboutMe-section {
+    display: flex;
+}
+
+.sideBar {
+    display: inline-flex;
+    
+    border-right: .2rem solid black;
+    width: 30%;
+    padding-right: 4rem;
+    justify-content: flex-end;
+    line-height: 2rem;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+}
+
+.workSection {
+    display: flex;
+    
+}
+
+.work-items {
+    border: solid .3rem black;
+    background-color: bisque;
+    justify-content: flex-end;
+    width: 400px;
+    height: 200px;
+    margin: 1rem;
+    filter: drop-shadow(10px 10px 5px gray);
+    
+}
+
+#aboutMe {
+    padding-left: 2rem;
+    width: 70%;
+    display: inline;
+}
+
+#work {
+    padding-left: 2rem;
+    width: 70%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+#contactMe {
+    padding-left: 2rem;
+    width: 70%;
+    display: inline;
+}
+
+.image{
+    width: 100%;
+}
+
+div.work-items:hover {
+    width: 31%;
+    border-color: rgb(230, 105, 105);
+}
+
