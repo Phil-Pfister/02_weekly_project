@@ -1,3 +1,4 @@
+    /* selector css  */
 body {
     background-color: #F9F5E7;
 }
@@ -15,6 +16,7 @@ p {
     font-size: 200%;
 }
 
+    /* Navbar links CSS */
 li a {
     font-size: 220%;
     color: #F9F5E7;
@@ -38,10 +40,7 @@ footer {
     margin: 2rem auto;
 }
 
-#contactMe a {
-    display: inline-flex;
-    font-size: 200%;
-}
+
 
 
 
@@ -51,9 +50,9 @@ footer {
     
 }
 
-.aboutMe-section {
-    display: flex;
-}
+
+
+    /* sidebar CSS for all sidebar sections */
 
 .sideBar {
     display: inline-flex;
@@ -66,8 +65,26 @@ footer {
     align-items: center;
 }
 
-.contact {
+    /* About me section CSS */
+#aboutMe {
+    padding-left: 2rem;
+    width: 70%;
+    display: inline;
+}
+
+.aboutMe-section {
     display: flex;
+}
+
+    /* work section CSS */
+#work {
+    padding-left: 2rem;
+    width: 70%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
 }
 
 .workSection {
@@ -87,21 +104,7 @@ footer {
     
 }
 
-#aboutMe {
-    padding-left: 2rem;
-    width: 70%;
-    display: inline;
-}
-
-#work {
-    padding-left: 2rem;
-    width: 70%;
-    display: inline-flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    
-    
-}
+    /* ID CSS for contact me section */
 
 #contactMe {
     padding-left: 2rem;
@@ -111,6 +114,16 @@ footer {
     justify-content: space-around;
 }
 
+.contact {
+    display: flex;
+}
+
+    /* CSS for contact links */
+.contact-link {
+    display: inline-flex;
+    font-size: 200%;
+}
+
 .work-items img{
     width: 100%;
     height: auto;
@@ -118,6 +131,7 @@ footer {
    
 }
 
+    /* Large box in work section */
 .primary {
     width: 800px;
     height: auto;
