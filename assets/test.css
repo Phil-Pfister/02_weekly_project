@@ -1,0 +1,236 @@
+:root {
+    --mauve: #A7727D;
+    --light: #F9F5E7;
+    --beige: #EDDBC7;
+    --light-pink: #F8EAD8;
+
+}
+
+
+    
+    /* selector css  */
+    body {
+        background-color: var(--light);
+        margin: 0 0;
+    }
+    
+    h1 {
+        font-size: 400%;
+    }
+    
+    h2 {
+        font-size: 300%;
+    }
+    
+    p {
+        line-height: 3rem;
+        font-size: 200%;
+    }
+    
+        /* Navbar links CSS */
+    li a {
+        font-size: 220%;
+        color: var(--light);
+        text-decoration: none;
+    }
+    
+    header {
+        padding: 10px 30px;
+        display: flex;
+        background-color: var(--mauve);
+        color: var(--light);
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    footer {
+        text-align: center;
+        background-color: var(--beige);
+        padding: 2rem;
+        margin: 2rem auto;
+    }
+    
+        /* Navbar section CSS */
+    .navLink {
+        display: inline-block;
+        margin: 20px 10px 0 10px;
+        
+    }
+
+    .avatar {
+        background-image: linear-gradient(var(--light-pink), var(--beige));
+    }
+    
+        /* sidebar CSS for all sidebar sections */
+    
+    /* .sideBar {
+        display: inline-flex;
+        
+        border-right: .2rem solid black;
+        width: 20%;
+        padding-right: 4rem;
+        justify-content: flex-end;
+        line-height: 2rem;
+        align-items: center;
+    } */
+    .aboutMe-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+        
+    }
+        /* About me section CSS */
+    #aboutMe {
+        
+        width: 100%;
+        
+    }
+    
+    
+    
+        /* work section CSS */
+    #work {
+        padding-left: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+        
+    }
+    
+    .workSection {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    /* .text-box {
+        position: relative;
+        line-height: 2rem;
+        background-color: aqua;
+        margin: 4.7rem 25rem 0rem 10.5rem;
+        padding: 0.5rem 1rem;
+    } */
+    
+    .work-items {
+        border: solid .3rem black;
+        
+        justify-content: flex-end;
+        width: 400px;
+        height: 200px;
+        margin: 1rem;
+        filter: drop-shadow(10px 10px 5px gray);
+        
+        
+        
+    }
+    
+        /* ID CSS for contact me section */
+    
+    #contactMe {
+        padding-left: 2rem;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        align-items: center;
+        
+    }
+    
+    .contact {
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    
+        /* CSS for contact links */
+    .contact-link {
+        
+        padding-bottom: .5rem;
+        font-size: 200%;
+    }
+    
+    
+    
+    .work-items img{
+        width: 100%;
+        height: auto;
+        
+        
+        
+       
+    }
+    
+        /* background images in work section */
+    .primary {
+        
+        width: 450px;
+        height: 215px;
+        background-image: url(./images/computers.jpg);
+        background-size: cover;
+    
+    }
+
+    .second {
+        
+        background-image: url(./images/books.jpeg);
+        background-size: cover;
+    }
+
+    .third {
+        
+        background-image: url(./images/curtain.jpg);
+        background-size: cover;
+    }
+
+    .fourth {
+        
+        background-image: url(./images/tile.jpg);
+        background-size: cover;
+    }
+
+    .fifth {
+        
+        background-image: url(./images/wall.jpg);
+        background-size: cover;
+    }
+
+        /* Hover for links in work section */
+    
+    div.work-items:hover {
+        transform: scale(1.01);
+        border-color: rgb(230, 105, 105);
+    }
+    
+    @media screen and (min-width: 992px)  {
+        header,
+        #contactMe {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .workSection,
+        .contact {
+            flex-direction: row;
+            
+            
+        }
+        #work {
+            width: 70%;
+            
+        }
+
+        .work-headline {
+            width: 20%;
+            align-items: flex-end;
+        }
+        
+    }
+    
+    
