@@ -27,8 +27,16 @@ p {
     font-size: 200%;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
     /* Navbar links CSS */
 li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 220%;
     color: var(--light);
     text-decoration: none;
@@ -70,18 +78,8 @@ footer {
     border-radius: 50%;
 }
 
-    /* sidebar CSS for all sidebar sections */
+  /* About me section CSS */  
 
-/* .sideBar {
-    display: inline-flex;
-    
-    border-right: .2rem solid black;
-    width: 20%;
-    padding-right: 4rem;
-    justify-content: flex-end;
-    line-height: 2rem;
-    align-items: center;
-} */
 .aboutMe-section {
     display: flex;
     flex-direction: column;
@@ -89,17 +87,19 @@ footer {
     padding: 0 1rem;
     
 }
-    /* About me section CSS */
+  
 #aboutMe {
     
-    width: 100%;
+    margin-left: 10rem;
+    margin-right: 10rem;
     
 }
-    
-    
+
+
     
     /* work section CSS */
-#work {
+
+.work {
    
     width: 100%;
     display: flex;
@@ -107,7 +107,10 @@ footer {
     justify-content: space-evenly;
     flex-wrap: wrap;
     
-    
+}
+
+.work a {
+    text-decoration: none;
 }
 
 .workSection {
@@ -115,28 +118,78 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.text-box-primary {
+    position: relative;
+    line-height: 2rem;
+    background-color: var(--light-pink);
+    margin: 9.65rem 16rem 0rem 1rem;
+    padding: .5rem 1rem;
     
 }
 
-/* .text-box {
+.text-box {
     position: relative;
-    line-height: 2rem;
-    background-color: aqua;
-    margin: 4.7rem 25rem 0rem 10.5rem;
-    padding: 0.5rem 1rem;
-} */
+    margin: 9.7rem 15rem 9rem 1rem;
+    background-color: var(--light-pink);
+    padding: .5rem .5rem;
+    text-decoration: none;
+    color: var(--mauve);
+}
+
 
 .work-items {
     border: solid .3rem black;
-    
+    text-decoration: none;
     justify-content: flex-end;
     width: 460px;
     height: 230px;
     margin: 1rem;
     filter: drop-shadow(10px 10px 5px gray);
+}
+
+
+
+/* background images in work section */
+
+.primary {
+    width: 30rem;
+    height: 15rem;
+    background-image: url(./images/computers.jpg);
+    background-size: cover;
+    border: solid .3rem black;
+    justify-content: center;
+    margin: 1rem;
+    filter: drop-shadow(10px 10px 5px gray);
+    transition: width 500ms linear;
+    text-decoration: none;
+}
+
+.workSection a {
+    text-decoration: none;
+    color: var(--mauve);
+}
+
+.second {
     
+    background-image: url(./images/books.jpeg);
+    background-size: cover;
+}
+.third {
     
+    background-image: url(./images/curtain.jpg);
+    background-size: cover;
+}
+.fourth {
     
+    background-image: url(./images/tile.jpg);
+    background-size: cover;
+}
+.fifth {
+    
+    background-image: url(./images/wall.jpg);
+    background-size: cover;
 }
 
     /* ID CSS for contact me section */
@@ -167,51 +220,39 @@ footer {
 
 
 
-.work-items img{
-    width: 100%;
-    height: auto;
-    
-    
-    
-   
-}
-    
-    /* background images in work section */
-.primary {
-    width: 60rem;
-    background-image: url(./images/computers.jpg);
-    background-size: cover;
-
-}
-.second {
-    
-    background-image: url(./images/books.jpeg);
-    background-size: cover;
-}
-.third {
-    
-    background-image: url(./images/curtain.jpg);
-    background-size: cover;
-}
-.fourth {
-    
-    background-image: url(./images/tile.jpg);
-    background-size: cover;
-}
-.fifth {
-    
-    background-image: url(./images/wall.jpg);
-    background-size: cover;
-}
-
     /* Hover for links in work section */
 
 div.work-items:hover {
     transform: scale(1.01);
     border-color: rgb(230, 105, 105);
 }
-    
-@media screen and (min-width: 924px)  {
+
+div.primary:hover {
+    transform: scale(1.01);
+    border-color: rgb(230, 105, 105);
+}
+
+    /* Media query section based on mobile first construction*/
+
+    /* tablets and small laptops */
+@media screen and (min-width: 800px){
+    .primary {
+        width: 45rem;
+        height: 20rem;
+    }
+
+    .text-box-primary {
+        position: relative;
+        line-height: 2rem;
+        background-color: var(--light-pink);
+        margin: 14.6rem 30rem 0rem 2.5rem;
+        padding: .5rem 1rem;
+    }
+}
+
+    /* desktops screen query */
+
+@media screen and (min-width: 1100px)  {
     header,
     #contactMe {
         flex-direction: row;
@@ -224,13 +265,28 @@ div.work-items:hover {
         
         
     }
-    #work {
+    .work {
         width: 70%;
         
+    }
+
+    .primary {
+        width: 60rem;
+        height: 25rem;
+    }
+
+    .text-box-primary {
+        position: relative;
+        line-height: 2rem;
+        background-color: var(--light-pink);
+        margin: 19.6rem 45rem 20rem 5rem;
+        padding: .5rem 1rem;
     }
     
     
 }
+
+
 
 
     
