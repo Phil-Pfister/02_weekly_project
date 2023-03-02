@@ -4,7 +4,7 @@ This web document is a responsive website with links to various projects that I 
 
 ## Installation
 
-Navigate to the website: [www.mysite.com](www.mysite.com) to view this portfolio
+Navigate to the website: [https://phil-pfister.github.io/Phillip_Pfister_Portfoilo/#contactMe](https://phil-pfister.github.io/Phillip_Pfister_Portfoilo/#contactMe) to view this portfolio
 
 ## Usage
 
@@ -17,6 +17,10 @@ I used what I learned in the classroom as well as information from MDN docs and 
 [MDN](https://developer.mozilla.org/en-US/)
 
 [w3school](https://www.w3schools.com/)
+
+I used Avatar maker to create my avatar.
+ 
+[Avatarmaker.com](avatarmaker.com)
 
 ## License
 
