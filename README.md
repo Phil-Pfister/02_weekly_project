@@ -4,7 +4,7 @@ This web document is a responsive website with links to various projects that I 
 
 ## Installation
 
-Navigate to the website: i[www.mysite.com](www.mysite.com) to view this portfolio
+Navigate to the website: [www.mysite.com](www.mysite.com) to view this portfolio
 
 ## Usage
 
@@ -19,4 +19,6 @@ I used what I learned in the classroom as well as information from MDN docs and 
 [w3school](https://www.w3schools.com/)
 
 ## License
+
+© 2023 Phillip Pfister. Confidential and Proprietary. All Rights Reserved.
 
