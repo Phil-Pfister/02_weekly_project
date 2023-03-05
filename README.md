@@ -6,6 +6,10 @@ This web document is a responsive website with links to various projects that I 
 
 Navigate to the website: [https://phil-pfister.github.io/Phillip_Pfister_Portfoilo/](https://phil-pfister.github.io/Phillip_Pfister_Portfoilo/#contactMe) to view this portfolio
 
+The page looks like this:
+
+![Portfolio_image](./assets/images/display-picture.png)
+
 ## Usage
 
 There are links in the navigation bar that will take you to specific parts of the document and links to other websites that were created by me or with me as part of a group. There are also links at the bottom of the page with various ways to contact me or view my resume and social media presence.
