@@ -12,15 +12,17 @@ The page looks like this:
 
 ## Usage
 
-There are links in the navigation bar that will take you to specific parts of the document and links to other websites that were created by me or with me as part of a group. There are also links at the bottom of the page with various ways to contact me or view my resume and social media presence.
+There are links in the navigation bar that will take you to specific parts of the document and links to other websites that were created by me or with me as part of a group. There are also links at the bottom of the page with various ways to contact me or view my resume and social media presence. I created and deployed a "under contruction" page for items that haven't been created yet to use as a placeholder. The link to that repository is here: [Under Construction Repo](https://github.com/Phil-Pfister/under_construction)
 
 ## Credits
 
-I used what I learned in the classroom as well as information from MDN docs and W3 schools websites.
+I used what I learned in the classroom as well as information from MDN docs and W3 schools websites as well as Stack Overflow.
 
 [MDN](https://developer.mozilla.org/en-US/)
 
 [w3school](https://www.w3schools.com/)
+
+[StackOverflow](https://stackoverflow.com/)
 
 I used Avatar maker to create my avatar.
 
