@@ -60,11 +60,11 @@ footer {
 }
 
     /* Navbar section CSS */
-.navLink {
+/* .navLink {
     display: inline-block;
     margin: 20px 10px 0 10px;
     
-}
+} */
     /* avatar section */
 .avatar {
     background-image: linear-gradient(to left, var(--beige), var(--mauve));
