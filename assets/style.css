@@ -80,13 +80,13 @@ footer {
 
   /* About me section CSS */  
 
-.aboutMe-section {
+/* .aboutMe-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 1rem;
     
-}
+} */
   
 /* #aboutMe {
     
@@ -140,7 +140,7 @@ footer {
     background-image: url(./images/houston-hot-spots-home.jpg);
     background-size: cover;
     border: solid .3rem black;
-    justify-content: center;
+    /* justify-content: center; */
     margin: 1rem;
     filter: drop-shadow(10px 10px 5px gray);
     transition: width 500ms linear;
@@ -154,7 +154,7 @@ footer {
 
 .second {
     
-    background-image: url(./images/books.jpeg);
+    background-image: url(./images/project2.png);
     background-size: cover;
 }
 .third {
@@ -175,14 +175,14 @@ footer {
 
 /* CSS for text-boxes in work containers */
 
-.text-box-primary {
+/* .text-box-primary {
     position: relative;
     line-height: 2rem;
     background-color: var(--light-pink);
     margin: 9.65rem 16rem 0rem 1rem;
     padding: .5rem 1rem;
     
-}
+} */
 
 .text-box {
     position: relative;
@@ -250,12 +250,12 @@ div.primary:hover {
         padding: .5rem 1rem;
     }
 
-    #aboutMe {
+    /* #aboutMe {
     
     margin-left: 10rem;
     margin-right: 10rem;
     
-}
+} */
 }
 
     /* desktops screen query */
@@ -267,29 +267,29 @@ div.primary:hover {
         align-items: center;
         justify-content: space-between;
     }
-    .workSection,
+    /* .workSection, */
     .contact {
         flex-direction: column;
         
         
     }
-    .work {
+    /* .work {
         width: 70%;
         
-    }
+    } */
 
     .primary {
         width: 60rem;
         height: 25rem;
     }
 
-    .text-box-primary {
+    /* .text-box-primary {
         position: relative;
         line-height: 2rem;
         background-color: var(--light-pink);
         margin: 19.6rem 45rem 20rem 5rem;
         padding: .5rem 1rem;
-    }
+    } */
     
     
 }
